@@ -5,6 +5,7 @@ function onScroll() {
     navigation.classList.remove('scroll')
   }
 }
+<<<<<<< HEAD
 
 function openMenu() {
   document.body.classList.add('menu-expanded')
@@ -30,3 +31,5 @@ ScrollReveal({
   #about header,
   #about p,
   #about img`)
+=======
+>>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
