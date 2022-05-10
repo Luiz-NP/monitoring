@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 /*======================================== GLOBAL ========================================*/
-=======
-/*======================================== HEADER ========================================*/
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
 
 * {
   margin: 0;
@@ -18,23 +14,17 @@
   --brand-beige: hsl(39, 100%, 97%, 1);
   --brand-light: hsl(0, 100%, 95%);
 
-<<<<<<< HEAD
   --bg-light: hsl(0, 0%, 98%);
 
-=======
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
   font-size: 62.5%; /* 1rem = 10px */
 
   --nav-height: 7.2rem;
 }
 
-<<<<<<< HEAD
 html {
   scroll-behavior: smooth;
 }
 
-=======
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
 html,
 body {
   width: 100%;
@@ -44,16 +34,12 @@ body {
 body {
   font-family: 'DM Sans';
   font-size: 1.6rem;
-<<<<<<< HEAD
 
   text-align: center;
 
   overflow: overlay;
 
   background-color: var(--bg-light);
-=======
-  text-align: center;
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
 }
 
 .wrapper {
@@ -62,18 +48,14 @@ body {
   padding-inline: 2.4rem;
 }
 
-<<<<<<< HEAD
 img {
   width: 100%;
 }
 
-=======
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
 ul {
   list-style: none;
 }
 
-<<<<<<< HEAD
 section {
   padding-block: 10rem;
 }
@@ -255,15 +237,6 @@ body.menu-expanded button path {
 }
 
 #home::before {
-=======
-/*======================================== HEADER ========================================*/
-
-header {
-  margin-top: calc(4.1rem + var(--nav-height));
-}
-
-header::before {
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
   content: '';
   width: 100%;
   height: calc(108rem + var(--nav-height));
@@ -276,24 +249,7 @@ header::before {
   z-index: -1;
 }
 
-<<<<<<< HEAD
 #home p {
-=======
-header h4 {
-  font-size: 1.4rem;
-  color: var(--primary-color);
-  margin-bottom: 1.6rem;
-}
-
-header h1 {
-  font-size: 3.4rem;
-  color: var(--headline);
-  line-height: 130%;
-  margin-bottom: 2.4rem;
-}
-
-header p {
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: 400;
@@ -301,11 +257,7 @@ header p {
   margin-bottom: 3.2rem;
 }
 
-<<<<<<< HEAD
 #home button {
-=======
-header button {
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
   background-color: var(--primary-color);
 
   border: none;
@@ -330,7 +282,6 @@ header button {
   margin-right: auto;
 }
 
-<<<<<<< HEAD
 #home img {
   display: block;
   margin-inline: auto;
@@ -338,16 +289,6 @@ header button {
 }
 
 #home .stats {
-=======
-.header-img {
-  width: 26.4rem;
-  display: block;
-  margin-inline: auto;
-  object-position: 0 1.2rem;
-}
-
-.stats {
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
   width: 32.7rem;
 
   padding-block: 4rem;
@@ -365,11 +306,7 @@ header button {
   border: 1px solid var(--brand-light);
 }
 
-<<<<<<< HEAD
 #home .stat h3 {
-=======
-.stat h3 {
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
   font-size: 4.8rem;
   color: var(--headline);
   line-height: 130%;
@@ -377,18 +314,13 @@ header button {
   margin-bottom: 0.4rem;
 }
 
-<<<<<<< HEAD
 #home .stat p {
-=======
-.stat p {
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
   margin: 0;
   color: var(--primary-color);
   font-size: 1.6rem;
   line-height: 150%;
 }
 
-<<<<<<< HEAD
 /*======================================== SERVICES ========================================*/
 
 #services header h2 {
@@ -429,73 +361,4 @@ header button {
 #about .content p {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
-=======
-/*======================================== NAVIGATION ========================================*/
-
-nav {
-  display: flex;
-
-  height: var(--nav-height);
-
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-nav .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav.scroll {
-  background: var(--primary-color);
-  width: 100vw;
-}
-
-nav.scroll svg:nth-child(1) path {
-  fill: white;
-}
-
-nav.scroll svg:nth-child(2) path {
-  stroke: white;
-}
-
-/*======================================== MENU-EXPANDED ========================================*/
-
-body.menu-expanded {
-  overflow: hidden;
-}
-
-.menu,
-.close-menu,
-body.menu-expanded .open-menu {
-  opacity: 0;
-  visibility: hidden;
-}
-
-body.menu-expanded .menu,
-body.menu-expanded .close-menu {
-  opacity: 1;
-  visibility: visible;
-}
-
-body.menu-expanded .menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: var(--primary-color);
-
-  width: 100vw;
-  height: 100vh;
-}
-
-body.menu-expanded nav {
-  position: relative;
-}
-
-.social-links {
-  display: flex;
->>>>>>> a0f18d2163170163a48482bbe145a1bebbbd0175
 }
