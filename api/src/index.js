@@ -10,4 +10,6 @@ api.get("/", (req, res) => {
   return res.json({message: "hello world"});
 });
 
+api.post();
+
 api.listen(PORT, () => console.log(`running on http://localhost:${PORT}`));
