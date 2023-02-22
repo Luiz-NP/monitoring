@@ -1,1 +1,1 @@
-### This is a CRUD using node and pgsql
+### monitoring users connected to the app
