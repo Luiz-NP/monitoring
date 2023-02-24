@@ -1,5 +1,8 @@
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import {useCallback} from "react";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const containerStyle = {
   width: '100vw',
@@ -14,7 +17,7 @@ const center = {
 const Map = () => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyCwLHHw9LKuO4QjkKw3cZ84S0NbBpG44DM",
+    googleMapsApiKey: process.env.API_KEY,
   });
 
   const lines = [
